@@ -11,7 +11,7 @@ import java.util.List;
 @Component
 public class Rest {
 
-    private final String API_URL = "http://localhost:9091/apiA";
+    private final String API_URL = "http://192.168.132.116:8080/apiA";
 
     private final RestTemplate restTemplate;
 
